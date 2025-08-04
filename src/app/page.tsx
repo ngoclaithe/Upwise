@@ -164,8 +164,8 @@ export default function HomePage() {
                 </div>
               </div>
               <p className="text-slate-600 dark:text-slate-400 mb-4">
-                "Upwise đã giúp tôi nâng cao kỹ năng lập trình một cách hiệu quả. 
-                Nội dung rất thực tế và dễ hiểu."
+                &ldquo;Upwise đã giúp tôi nâng cao kỹ năng lập trình một cách hiệu quả.
+                Nội dung rất thực tế và dễ hiểu.&rdquo;
               </p>
               <div className="flex text-yellow-400">
                 ★★★★★
@@ -181,8 +181,8 @@ export default function HomePage() {
                 </div>
               </div>
               <p className="text-slate-600 dark:text-slate-400 mb-4">
-                "Các khóa học marketing digital rất chất lượng. Tôi đã áp dụng được 
-                ngay vào công việc và thấy hiệu quả rõ rệt."
+                &ldquo;Các khóa học marketing digital rất chất lượng. Tôi đã áp dụng được
+                ngay vào công việc và thấy hiệu quả rõ rệt.&rdquo;
               </p>
               <div className="flex text-yellow-400">
                 ★★★★★
@@ -198,8 +198,8 @@ export default function HomePage() {
                 </div>
               </div>
               <p className="text-slate-600 dark:text-slate-400 mb-4">
-                "Platform rất user-friendly và có hệ thống tracking tiến độ tuyệt vời. 
-                Highly recommend!"
+                &ldquo;Platform rất user-friendly và có hệ thống tracking tiến độ tuyệt vời.
+                Highly recommend!&rdquo;
               </p>
               <div className="flex text-yellow-400">
                 ★★★★★
