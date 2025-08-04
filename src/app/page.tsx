@@ -87,7 +87,7 @@ export default function HomePage() {
               </div>
               <div className="text-center">
                 <div className="text-3xl font-bold text-pink-600 dark:text-pink-400">95%</div>
-                <div className="text-slate-600 dark:text-slate-400">Hài l��ng</div>
+                <div className="text-slate-600 dark:text-slate-400">Hài lòng</div>
               </div>
               <div className="text-center">
                 <div className="text-3xl font-bold text-blue-600 dark:text-blue-400">24/7</div>
@@ -290,7 +290,7 @@ export default function HomePage() {
               </p>
             </div>
 
-            <div className="group p-8 rounded-2xl bg-gradient-to-br from-purple-50 to-pink-50 dark:from-purple-900/20 dark:to-pink-900/20 hover:shadow-xl hover:-translate-y-2 transition-all duration-300 border border-purple-100 dark:border-purple-800">
+            <div className="group p-8 rounded-2xl bg-gradient-to-br from-purple-50 to-pink-50 dark:from-purple-900/20 dark:to-pink-900/20 card-hover border border-purple-100 dark:border-purple-800 relative overflow-hidden">
               <div className="w-16 h-16 bg-gradient-to-r from-purple-600 to-pink-600 rounded-xl mb-6 flex items-center justify-center group-hover:scale-110 group-hover:rotate-6 transition-transform duration-300">
                 <svg className="w-8 h-8 text-white" fill="none" stroke="currentColor" viewBox="0 0 24 24">
                   <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M12 6.253v13m0-13C10.832 5.477 9.246 5 7.5 5S4.168 5.477 3 6.253v13C4.168 18.477 5.754 18 7.5 18s3.332.477 4.5 1.253m0-13C13.168 5.477 14.754 5 16.5 5c1.746 0 3.332.477 4.5 1.253v13C20.832 18.477 19.246 18 17.5 18c-1.746 0-3.332.477-4.5 1.253" />
@@ -482,7 +482,7 @@ export default function HomePage() {
                   <svg className="w-5 h-5 text-green-500 mr-3" fill="currentColor" viewBox="0 0 20 20">
                     <path fillRule="evenodd" d="M16.707 5.293a1 1 0 010 1.414l-8 8a1 1 0 01-1.414 0l-4-4a1 1 0 011.414-1.414L8 12.586l7.293-7.293a1 1 0 011.414 0z" clipRule="evenodd"></path>
                   </svg>
-                  Khóa học t��y chỉnh
+                  Khóa học tùy chỉnh
                 </li>
                 <li className="flex items-center">
                   <svg className="w-5 h-5 text-green-500 mr-3" fill="currentColor" viewBox="0 0 20 20">
