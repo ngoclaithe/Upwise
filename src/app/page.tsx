@@ -61,16 +61,16 @@ export default function HomePage() {
               </h1>
             </div>
             
-            <p className="text-xl md:text-2xl text-slate-600 dark:text-slate-400 mb-8 max-w-3xl mx-auto leading-relaxed">
-              Khám phá phương pháp học tập hiện đại với Upwise - nền tảng giáo dục trực tuyến 
+            <p className="text-xl md:text-2xl text-slate-600 dark:text-slate-400 mb-8 max-w-3xl mx-auto leading-relaxed text-reveal">
+              Khám phá phương pháp học tập hiện đại với Upwise - nền tảng giáo dục trực tuyến
               giúp bạn phát triển kỹ năng và đạt được mục tiêu nghề nghiệp.
             </p>
-            
-            <div className="flex flex-col sm:flex-row gap-4 justify-center items-center mb-12">
-              <Button size="lg" className="text-lg px-8 py-4 bg-gradient-to-r from-indigo-600 to-purple-600 hover:from-indigo-700 hover:to-purple-700">
+
+            <div className="flex flex-col sm:flex-row gap-4 justify-center items-center mb-12 text-reveal">
+              <Button size="lg" className="text-lg px-8 py-4 bg-gradient-to-r from-indigo-600 to-purple-600 hover:from-indigo-700 hover:to-purple-700 shimmer glow hover:scale-105 transition-all duration-300">
                 Bắt đầu học ngay
               </Button>
-              <Button variant="outline" size="lg" className="text-lg px-8 py-4">
+              <Button variant="outline" size="lg" className="text-lg px-8 py-4 gradient-border hover:scale-105 transition-all duration-300">
                 Xem demo miễn phí
               </Button>
             </div>
@@ -182,7 +182,7 @@ export default function HomePage() {
               <div className="flex items-center mb-4">
                 <div className="w-12 h-12 bg-gradient-to-r from-purple-600 to-pink-600 rounded-full mr-4"></div>
                 <div>
-                  <h4 className="font-bold">Trần Th�� B</h4>
+                  <h4 className="font-bold">Trần Thị B</h4>
                   <p className="text-slate-600 dark:text-slate-400 text-sm">Marketing Manager</p>
                 </div>
               </div>
@@ -316,7 +316,7 @@ export default function HomePage() {
                   <svg className="w-5 h-5 text-green-500 mr-3" fill="currentColor" viewBox="0 0 20 20">
                     <path fillRule="evenodd" d="M16.707 5.293a1 1 0 010 1.414l-8 8a1 1 0 01-1.414 0l-4-4a1 1 0 011.414-1.414L8 12.586l7.293-7.293a1 1 0 011.414 0z" clipRule="evenodd"></path>
                   </svg>
-                  Khóa học t��y chỉnh
+                  Khóa học tùy chỉnh
                 </li>
                 <li className="flex items-center">
                   <svg className="w-5 h-5 text-green-500 mr-3" fill="currentColor" viewBox="0 0 20 20">
