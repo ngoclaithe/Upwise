@@ -17,8 +17,8 @@ export default function HomePage() {
               <Link href="#features" className="text-slate-600 hover:text-slate-900 dark:text-slate-400 dark:hover:text-slate-100 transition-colors scroll-smooth">
                 Tính năng
               </Link>
-              <Link href="#pricing" className="text-slate-600 hover:text-slate-900 dark:text-slate-400 dark:hover:text-slate-100 transition-colors scroll-smooth">
-                Giá cả
+              <Link href="#courses" className="text-slate-600 hover:text-slate-900 dark:text-slate-400 dark:hover:text-slate-100 transition-colors scroll-smooth">
+                Khóa học
               </Link>
               <Link href="#testimonials" className="text-slate-600 hover:text-slate-900 dark:text-slate-400 dark:hover:text-slate-100 transition-colors scroll-smooth">
                 Đánh giá
@@ -308,7 +308,7 @@ export default function HomePage() {
                   <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M17 20h5v-2a3 3 0 00-5.356-1.857M17 20H7m10 0v-2c0-.656-.126-1.283-.356-1.857M7 20H2v-2a3 3 0 015.356-1.857M7 20v-2c0-.656.126-1.283.356-1.857m0 0a5.002 5.002 0 019.288 0M15 7a3 3 0 11-6 0 3 3 0 016 0zm6 3a2 2 0 11-4 0 2 2 0 014 0zM7 10a2 2 0 11-4 0 2 2 0 014 0z" />
                 </svg>
               </div>
-              <h3 className="text-2xl font-bold mb-4 group-hover:text-pink-600 transition-colors">Cộng đồng học t��p</h3>
+              <h3 className="text-2xl font-bold mb-4 group-hover:text-pink-600 transition-colors">Cộng đồng học tập</h3>
               <p className="text-slate-600 dark:text-slate-400 group-hover:text-slate-700 dark:group-hover:text-slate-300 transition-colors">
                 Kết nối với hàng nghìn học viên và mentor để cùng nhau phát triển.
               </p>
