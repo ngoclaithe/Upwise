@@ -17,7 +17,7 @@ const faqData: FAQItem[] = [
     answer: "Có, bạn có thể hủy đăng ký bất cứ lúc nào mà không mất phí. Tài khoản của bạn sẽ vẫn hoạt động đến hết chu kỳ thanh toán hiện tại."
   },
   {
-    question: "Chứng chỉ của Upwise có đư���c công nhận không?",
+    question: "Chứng chỉ của Upwise có được công nhận không?",
     answer: "Chứng chỉ Upwise được nhiều doanh nghiệp trong và ngoài nước công nhận. Chúng tôi cũng là đối tác của nhiều tập đoàn lớn trong việc đào tạo nhân sự."
   },
   {
