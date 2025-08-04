@@ -106,38 +106,38 @@ export default function HomePage() {
           </div>
           
           <div className="grid md:grid-cols-3 gap-8">
-            <div className="group p-8 rounded-2xl bg-gradient-to-br from-indigo-50 to-purple-50 dark:from-indigo-900/20 dark:to-purple-900/20 hover:shadow-xl transition-all duration-300 border border-indigo-100 dark:border-indigo-800">
-              <div className="w-16 h-16 bg-gradient-to-r from-indigo-600 to-purple-600 rounded-xl mb-6 flex items-center justify-center group-hover:scale-110 transition-transform">
+            <div className="group p-8 rounded-2xl bg-gradient-to-br from-indigo-50 to-purple-50 dark:from-indigo-900/20 dark:to-purple-900/20 hover:shadow-xl hover:-translate-y-2 transition-all duration-300 border border-indigo-100 dark:border-indigo-800">
+              <div className="w-16 h-16 bg-gradient-to-r from-indigo-600 to-purple-600 rounded-xl mb-6 flex items-center justify-center group-hover:scale-110 group-hover:rotate-6 transition-transform duration-300">
                 <svg className="w-8 h-8 text-white" fill="none" stroke="currentColor" viewBox="0 0 24 24">
                   <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M13 10V3L4 14h7v7l9-11h-7z" />
                 </svg>
               </div>
-              <h3 className="text-2xl font-bold mb-4">Học tập thông minh</h3>
-              <p className="text-slate-600 dark:text-slate-400">
+              <h3 className="text-2xl font-bold mb-4 group-hover:text-indigo-600 transition-colors">Học tập thông minh</h3>
+              <p className="text-slate-600 dark:text-slate-400 group-hover:text-slate-700 dark:group-hover:text-slate-300 transition-colors">
                 AI cá nhân hóa lộ trình học tập phù hợp với khả năng và mục tiêu của bạn.
               </p>
             </div>
 
-            <div className="group p-8 rounded-2xl bg-gradient-to-br from-purple-50 to-pink-50 dark:from-purple-900/20 dark:to-pink-900/20 hover:shadow-xl transition-all duration-300 border border-purple-100 dark:border-purple-800">
-              <div className="w-16 h-16 bg-gradient-to-r from-purple-600 to-pink-600 rounded-xl mb-6 flex items-center justify-center group-hover:scale-110 transition-transform">
+            <div className="group p-8 rounded-2xl bg-gradient-to-br from-purple-50 to-pink-50 dark:from-purple-900/20 dark:to-pink-900/20 hover:shadow-xl hover:-translate-y-2 transition-all duration-300 border border-purple-100 dark:border-purple-800">
+              <div className="w-16 h-16 bg-gradient-to-r from-purple-600 to-pink-600 rounded-xl mb-6 flex items-center justify-center group-hover:scale-110 group-hover:rotate-6 transition-transform duration-300">
                 <svg className="w-8 h-8 text-white" fill="none" stroke="currentColor" viewBox="0 0 24 24">
                   <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M12 6.253v13m0-13C10.832 5.477 9.246 5 7.5 5S4.168 5.477 3 6.253v13C4.168 18.477 5.754 18 7.5 18s3.332.477 4.5 1.253m0-13C13.168 5.477 14.754 5 16.5 5c1.746 0 3.332.477 4.5 1.253v13C20.832 18.477 19.246 18 17.5 18c-1.746 0-3.332.477-4.5 1.253" />
                 </svg>
               </div>
-              <h3 className="text-2xl font-bold mb-4">Nội dung chất lượng</h3>
-              <p className="text-slate-600 dark:text-slate-400">
+              <h3 className="text-2xl font-bold mb-4 group-hover:text-purple-600 transition-colors">Nội dung chất lượng</h3>
+              <p className="text-slate-600 dark:text-slate-400 group-hover:text-slate-700 dark:group-hover:text-slate-300 transition-colors">
                 Khóa học được thiết kế bởi các chuyên gia hàng đầu trong từng lĩnh vực.
               </p>
             </div>
 
-            <div className="group p-8 rounded-2xl bg-gradient-to-br from-pink-50 to-blue-50 dark:from-pink-900/20 dark:to-blue-900/20 hover:shadow-xl transition-all duration-300 border border-pink-100 dark:border-pink-800">
-              <div className="w-16 h-16 bg-gradient-to-r from-pink-600 to-blue-600 rounded-xl mb-6 flex items-center justify-center group-hover:scale-110 transition-transform">
+            <div className="group p-8 rounded-2xl bg-gradient-to-br from-pink-50 to-blue-50 dark:from-pink-900/20 dark:to-blue-900/20 hover:shadow-xl hover:-translate-y-2 transition-all duration-300 border border-pink-100 dark:border-pink-800">
+              <div className="w-16 h-16 bg-gradient-to-r from-pink-600 to-blue-600 rounded-xl mb-6 flex items-center justify-center group-hover:scale-110 group-hover:rotate-6 transition-transform duration-300">
                 <svg className="w-8 h-8 text-white" fill="none" stroke="currentColor" viewBox="0 0 24 24">
                   <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M17 20h5v-2a3 3 0 00-5.356-1.857M17 20H7m10 0v-2c0-.656-.126-1.283-.356-1.857M7 20H2v-2a3 3 0 015.356-1.857M7 20v-2c0-.656.126-1.283.356-1.857m0 0a5.002 5.002 0 019.288 0M15 7a3 3 0 11-6 0 3 3 0 016 0zm6 3a2 2 0 11-4 0 2 2 0 014 0zM7 10a2 2 0 11-4 0 2 2 0 014 0z" />
                 </svg>
               </div>
-              <h3 className="text-2xl font-bold mb-4">Cộng đồng học tập</h3>
-              <p className="text-slate-600 dark:text-slate-400">
+              <h3 className="text-2xl font-bold mb-4 group-hover:text-pink-600 transition-colors">Cộng đồng học tập</h3>
+              <p className="text-slate-600 dark:text-slate-400 group-hover:text-slate-700 dark:group-hover:text-slate-300 transition-colors">
                 Kết nối với hàng nghìn học viên và mentor để cùng nhau phát triển.
               </p>
             </div>
