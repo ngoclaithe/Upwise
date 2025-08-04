@@ -62,7 +62,7 @@ export default function HomePage() {
             </div>
             
             <p className="text-xl md:text-2xl text-slate-600 dark:text-slate-400 mb-8 max-w-3xl mx-auto leading-relaxed text-reveal">
-              Khám phá phương pháp học tập hiện đại v���i Upwise - nền tảng giáo dục trực tuyến
+              Khám phá phương pháp học tập hiện đại với Upwise - nền tảng giáo dục trực tuyến
               giúp bạn phát triển kỹ năng và đạt được mục tiêu nghề nghiệp.
             </p>
 
@@ -259,14 +259,20 @@ export default function HomePage() {
       </section>
 
       {/* Features Section */}
-      <section id="features" className="py-20 px-4 sm:px-6 lg:px-8 bg-white dark:bg-slate-800">
-        <div className="container mx-auto">
+      <section id="features" className="py-20 px-4 sm:px-6 lg:px-8 bg-slate-50 dark:bg-slate-900 relative overflow-hidden">
+        {/* Background decoration */}
+        <div className="absolute top-0 left-0 w-full h-full">
+          <div className="floating-shape w-96 h-96 -top-20 -left-20 opacity-10"></div>
+          <div className="floating-shape w-64 h-64 top-1/2 -right-20 opacity-10"></div>
+        </div>
+
+        <div className="container mx-auto relative z-10">
           <div className="text-center mb-16">
             <h2 className="text-4xl md:text-5xl font-bold mb-4">
               Tại sao chọn <span className="gradient-text">Upwise</span>?
             </h2>
             <p className="text-xl text-slate-600 dark:text-slate-400 max-w-2xl mx-auto">
-              Chúng tôi cung cấp trải nghiệm học tập tốt nhất với công nghệ tiên tiến 
+              Chúng tôi cung cấp trải nghiệm học tập tốt nhất với công nghệ tiên tiến
               và phương pháp giảng dạy hiệu quả.
             </p>
           </div>
