@@ -14,20 +14,29 @@ export default function HomePage() {
               <span className="text-2xl font-bold gradient-text">Upwise</span>
             </div>
             <div className="hidden md:flex items-center space-x-8">
-              <Link href="#features" className="text-slate-600 hover:text-slate-900 dark:text-slate-400 dark:hover:text-slate-100 transition-colors">
+              <Link href="#features" className="text-slate-600 hover:text-slate-900 dark:text-slate-400 dark:hover:text-slate-100 transition-colors scroll-smooth">
                 Tính năng
               </Link>
-              <Link href="#pricing" className="text-slate-600 hover:text-slate-900 dark:text-slate-400 dark:hover:text-slate-100 transition-colors">
+              <Link href="#pricing" className="text-slate-600 hover:text-slate-900 dark:text-slate-400 dark:hover:text-slate-100 transition-colors scroll-smooth">
                 Giá cả
               </Link>
-              <Link href="#testimonials" className="text-slate-600 hover:text-slate-900 dark:text-slate-400 dark:hover:text-slate-100 transition-colors">
+              <Link href="#testimonials" className="text-slate-600 hover:text-slate-900 dark:text-slate-400 dark:hover:text-slate-100 transition-colors scroll-smooth">
                 Đánh giá
               </Link>
-              <Button variant="outline" size="sm">
+              <Button variant="outline" size="sm" className="hover:scale-105 transition-transform">
                 Đăng nhập
               </Button>
-              <Button size="sm">
+              <Button size="sm" className="hover:scale-105 transition-transform">
                 Đăng ký ngay
+              </Button>
+            </div>
+
+            {/* Mobile menu button */}
+            <div className="md:hidden">
+              <Button variant="ghost" size="sm">
+                <svg className="w-6 h-6" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                  <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M4 6h16M4 12h16M4 18h16" />
+                </svg>
               </Button>
             </div>
           </div>
@@ -224,7 +233,7 @@ export default function HomePage() {
                   <svg className="w-5 h-5 text-green-500 mr-3" fill="currentColor" viewBox="0 0 20 20">
                     <path fillRule="evenodd" d="M16.707 5.293a1 1 0 010 1.414l-8 8a1 1 0 01-1.414 0l-4-4a1 1 0 011.414-1.414L8 12.586l7.293-7.293a1 1 0 011.414 0z" clipRule="evenodd"></path>
                   </svg>
-                  Truy cập 10 kh��a học
+                  Truy cập 10 khóa học
                 </li>
                 <li className="flex items-center">
                   <svg className="w-5 h-5 text-green-500 mr-3" fill="currentColor" viewBox="0 0 20 20">
