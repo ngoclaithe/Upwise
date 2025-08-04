@@ -44,14 +44,20 @@ export default function HomePage() {
       </nav>
 
       {/* Hero Section */}
-      <section className="pt-24 pb-16 px-4 sm:px-6 lg:px-8">
-        <div className="container mx-auto text-center">
+      <section className="relative pt-24 pb-16 px-4 sm:px-6 lg:px-8 hero-pattern overflow-hidden">
+        {/* Floating Shapes */}
+        <div className="floating-shape w-64 h-64 top-20 left-10 opacity-30"></div>
+        <div className="floating-shape w-32 h-32 top-40 right-20 opacity-20"></div>
+        <div className="floating-shape w-48 h-48 bottom-20 left-1/4 opacity-25"></div>
+        <div className="floating-shape w-20 h-20 top-1/3 right-1/3 opacity-15"></div>
+
+        <div className="container mx-auto text-center relative z-10">
           <div className="max-w-4xl mx-auto">
             <div className="animate-float">
-              <h1 className="text-5xl md:text-7xl font-bold mb-6 leading-tight">
+              <h1 className="text-5xl md:text-7xl font-bold mb-6 leading-tight text-reveal">
                 Học thông minh
                 <br />
-                <span className="gradient-text">thành công vượt trội</span>
+                <span className="gradient-text glow">thành công vượt trội</span>
               </h1>
             </div>
             
@@ -176,7 +182,7 @@ export default function HomePage() {
               <div className="flex items-center mb-4">
                 <div className="w-12 h-12 bg-gradient-to-r from-purple-600 to-pink-600 rounded-full mr-4"></div>
                 <div>
-                  <h4 className="font-bold">Trần Thị B</h4>
+                  <h4 className="font-bold">Trần Th�� B</h4>
                   <p className="text-slate-600 dark:text-slate-400 text-sm">Marketing Manager</p>
                 </div>
               </div>
@@ -310,7 +316,7 @@ export default function HomePage() {
                   <svg className="w-5 h-5 text-green-500 mr-3" fill="currentColor" viewBox="0 0 20 20">
                     <path fillRule="evenodd" d="M16.707 5.293a1 1 0 010 1.414l-8 8a1 1 0 01-1.414 0l-4-4a1 1 0 011.414-1.414L8 12.586l7.293-7.293a1 1 0 011.414 0z" clipRule="evenodd"></path>
                   </svg>
-                  Khóa học tùy chỉnh
+                  Khóa học t��y chỉnh
                 </li>
                 <li className="flex items-center">
                   <svg className="w-5 h-5 text-green-500 mr-3" fill="currentColor" viewBox="0 0 20 20">
