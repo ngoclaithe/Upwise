@@ -62,7 +62,7 @@ export default function HomePage() {
             </div>
             
             <p className="text-xl md:text-2xl text-slate-600 dark:text-slate-400 mb-8 max-w-3xl mx-auto leading-relaxed text-reveal">
-              Khám phá phương pháp học tập hiện đại với Upwise - nền tảng giáo dục trực tuyến
+              Khám phá phương pháp học tập hiện đại v���i Upwise - nền tảng giáo dục trực tuyến
               giúp bạn phát triển kỹ năng và đạt được mục tiêu nghề nghiệp.
             </p>
 
@@ -94,6 +94,166 @@ export default function HomePage() {
                 <div className="text-slate-600 dark:text-slate-400">Hỗ trợ</div>
               </div>
             </div>
+          </div>
+        </div>
+      </section>
+
+      {/* Popular Courses Section */}
+      <section className="py-20 px-4 sm:px-6 lg:px-8 bg-white dark:bg-slate-800">
+        <div className="container mx-auto">
+          <div className="text-center mb-16">
+            <h2 className="text-4xl md:text-5xl font-bold mb-4">
+              Khóa học <span className="gradient-text">phổ biến</span>
+            </h2>
+            <p className="text-xl text-slate-600 dark:text-slate-400 max-w-2xl mx-auto">
+              Học cùng hàng nghìn học viên với các khóa học chất lượng cao được thiết kế bởi chuyên gia
+            </p>
+          </div>
+
+          <div className="grid md:grid-cols-2 lg:grid-cols-3 gap-8">
+            {/* Course 1 - Tiếng Anh */}
+            <div className="course-card bg-white dark:bg-slate-900 rounded-2xl shadow-lg border border-slate-200 dark:border-slate-700 p-6 card-hover">
+              <div className="w-full h-48 bg-gradient-to-br from-blue-500 to-blue-600 rounded-xl mb-6 flex items-center justify-center">
+                <div className="text-4xl text-white">🇺🇸</div>
+              </div>
+              <h3 className="text-2xl font-bold mb-3">Tiếng Anh Giao Tiếp Cơ Bản</h3>
+              <p className="text-slate-600 dark:text-slate-400 mb-4">
+                Học tiếng Anh giao tiếp hàng ngày với phương pháp thực tế, từ cơ bản đến tự tin trò chuyện.
+              </p>
+              <div className="flex items-center justify-between mb-4">
+                <div className="flex items-center text-yellow-400">
+                  ⭐⭐⭐⭐⭐ <span className="text-slate-600 dark:text-slate-400 ml-2">(4.8/5)</span>
+                </div>
+                <span className="text-slate-500 text-sm">124 học viên</span>
+              </div>
+              <div className="flex items-center justify-between">
+                <span className="text-2xl font-bold text-indigo-600">299K</span>
+                <Button size="sm" className="bg-gradient-to-r from-blue-500 to-blue-600 hover:from-blue-600 hover:to-blue-700">
+                  Đăng ký ngay
+                </Button>
+              </div>
+            </div>
+
+            {/* Course 2 - Tiếng Trung */}
+            <div className="course-card bg-white dark:bg-slate-900 rounded-2xl shadow-lg border border-slate-200 dark:border-slate-700 p-6 card-hover">
+              <div className="w-full h-48 bg-gradient-to-br from-red-500 to-red-600 rounded-xl mb-6 flex items-center justify-center">
+                <div className="text-4xl text-white">🇨🇳</div>
+              </div>
+              <h3 className="text-2xl font-bold mb-3">Tiếng Trung Nâng Cao</h3>
+              <p className="text-slate-600 dark:text-slate-400 mb-4">
+                Nâng cao trình độ tiếng Trung với ngữ pháp phức tạp và kỹ năng giao tiếp trong kinh doanh.
+              </p>
+              <div className="flex items-center justify-between mb-4">
+                <div className="flex items-center text-yellow-400">
+                  ⭐⭐⭐⭐⭐ <span className="text-slate-600 dark:text-slate-400 ml-2">(4.9/5)</span>
+                </div>
+                <span className="text-slate-500 text-sm">89 học viên</span>
+              </div>
+              <div className="flex items-center justify-between">
+                <span className="text-2xl font-bold text-red-600">599K</span>
+                <Button size="sm" className="bg-gradient-to-r from-red-500 to-red-600 hover:from-red-600 hover:to-red-700">
+                  Đăng ký ngay
+                </Button>
+              </div>
+            </div>
+
+            {/* Course 3 - Lập trình */}
+            <div className="course-card bg-white dark:bg-slate-900 rounded-2xl shadow-lg border border-slate-200 dark:border-slate-700 p-6 card-hover">
+              <div className="w-full h-48 bg-gradient-to-br from-green-500 to-green-600 rounded-xl mb-6 flex items-center justify-center">
+                <div className="text-4xl text-white">💻</div>
+              </div>
+              <h3 className="text-2xl font-bold mb-3">Lập Trình Web Fullstack</h3>
+              <p className="text-slate-600 dark:text-slate-400 mb-4">
+                Học lập trình web từ A-Z với React, Node.js và database. Xây dựng ứng dụng thực tế.
+              </p>
+              <div className="flex items-center justify-between mb-4">
+                <div className="flex items-center text-yellow-400">
+                  ⭐⭐⭐⭐⭐ <span className="text-slate-600 dark:text-slate-400 ml-2">(4.7/5)</span>
+                </div>
+                <span className="text-slate-500 text-sm">256 học viên</span>
+              </div>
+              <div className="flex items-center justify-between">
+                <span className="text-2xl font-bold text-green-600">899K</span>
+                <Button size="sm" className="bg-gradient-to-r from-green-500 to-green-600 hover:from-green-600 hover:to-green-700">
+                  Đăng ký ngay
+                </Button>
+              </div>
+            </div>
+
+            {/* Course 4 - Marketing */}
+            <div className="course-card bg-white dark:bg-slate-900 rounded-2xl shadow-lg border border-slate-200 dark:border-slate-700 p-6 card-hover">
+              <div className="w-full h-48 bg-gradient-to-br from-purple-500 to-purple-600 rounded-xl mb-6 flex items-center justify-center">
+                <div className="text-4xl text-white">📈</div>
+              </div>
+              <h3 className="text-2xl font-bold mb-3">Digital Marketing Chuyên Nghiệp</h3>
+              <p className="text-slate-600 dark:text-slate-400 mb-4">
+                Làm chủ marketing online với SEO, Facebook Ads, Google Ads và content marketing hiệu quả.
+              </p>
+              <div className="flex items-center justify-between mb-4">
+                <div className="flex items-center text-yellow-400">
+                  ⭐⭐⭐⭐⭐ <span className="text-slate-600 dark:text-slate-400 ml-2">(4.8/5)</span>
+                </div>
+                <span className="text-slate-500 text-sm">189 học viên</span>
+              </div>
+              <div className="flex items-center justify-between">
+                <span className="text-2xl font-bold text-purple-600">699K</span>
+                <Button size="sm" className="bg-gradient-to-r from-purple-500 to-purple-600 hover:from-purple-600 hover:to-purple-700">
+                  Đăng ký ngay
+                </Button>
+              </div>
+            </div>
+
+            {/* Course 5 - Design */}
+            <div className="course-card bg-white dark:bg-slate-900 rounded-2xl shadow-lg border border-slate-200 dark:border-slate-700 p-6 card-hover">
+              <div className="w-full h-48 bg-gradient-to-br from-pink-500 to-pink-600 rounded-xl mb-6 flex items-center justify-center">
+                <div className="text-4xl text-white">🎨</div>
+              </div>
+              <h3 className="text-2xl font-bold mb-3">UI/UX Design Thực Chiến</h3>
+              <p className="text-slate-600 dark:text-slate-400 mb-4">
+                Thiết kế giao diện và trải nghiệm người dùng chuyên nghiệp với Figma và Adobe XD.
+              </p>
+              <div className="flex items-center justify-between mb-4">
+                <div className="flex items-center text-yellow-400">
+                  ⭐⭐⭐⭐⭐ <span className="text-slate-600 dark:text-slate-400 ml-2">(4.9/5)</span>
+                </div>
+                <span className="text-slate-500 text-sm">167 học viên</span>
+              </div>
+              <div className="flex items-center justify-between">
+                <span className="text-2xl font-bold text-pink-600">799K</span>
+                <Button size="sm" className="bg-gradient-to-r from-pink-500 to-pink-600 hover:from-pink-600 hover:to-pink-700">
+                  Đăng ký ngay
+                </Button>
+              </div>
+            </div>
+
+            {/* Course 6 - Data Science */}
+            <div className="course-card bg-white dark:bg-slate-900 rounded-2xl shadow-lg border border-slate-200 dark:border-slate-700 p-6 card-hover">
+              <div className="w-full h-48 bg-gradient-to-br from-indigo-500 to-indigo-600 rounded-xl mb-6 flex items-center justify-center">
+                <div className="text-4xl text-white">📊</div>
+              </div>
+              <h3 className="text-2xl font-bold mb-3">Data Science & AI</h3>
+              <p className="text-slate-600 dark:text-slate-400 mb-4">
+                Khám phá thế giới dữ liệu với Python, Machine Learning và Deep Learning ứng dụng thực tế.
+              </p>
+              <div className="flex items-center justify-between mb-4">
+                <div className="flex items-center text-yellow-400">
+                  ⭐⭐⭐⭐⭐ <span className="text-slate-600 dark:text-slate-400 ml-2">(4.6/5)</span>
+                </div>
+                <span className="text-slate-500 text-sm">145 học viên</span>
+              </div>
+              <div className="flex items-center justify-between">
+                <span className="text-2xl font-bold text-indigo-600">1,199K</span>
+                <Button size="sm" className="bg-gradient-to-r from-indigo-500 to-indigo-600 hover:from-indigo-600 hover:to-indigo-700">
+                  Đăng ký ngay
+                </Button>
+              </div>
+            </div>
+          </div>
+
+          <div className="text-center mt-12">
+            <Button size="lg" variant="outline" className="gradient-border hover:scale-105 transition-all duration-300">
+              Xem tất cả khóa học
+            </Button>
           </div>
         </div>
       </section>
