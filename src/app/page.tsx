@@ -87,7 +87,7 @@ export default function HomePage() {
               </div>
               <div className="text-center">
                 <div className="text-3xl font-bold text-pink-600 dark:text-pink-400">95%</div>
-                <div className="text-slate-600 dark:text-slate-400">Hài lòng</div>
+                <div className="text-slate-600 dark:text-slate-400">Hài l��ng</div>
               </div>
               <div className="text-center">
                 <div className="text-3xl font-bold text-blue-600 dark:text-blue-400">24/7</div>
@@ -278,7 +278,7 @@ export default function HomePage() {
           </div>
           
           <div className="grid md:grid-cols-3 gap-8">
-            <div className="group p-8 rounded-2xl bg-gradient-to-br from-indigo-50 to-purple-50 dark:from-indigo-900/20 dark:to-purple-900/20 hover:shadow-xl hover:-translate-y-2 transition-all duration-300 border border-indigo-100 dark:border-indigo-800">
+            <div className="group p-8 rounded-2xl bg-gradient-to-br from-indigo-50 to-purple-50 dark:from-indigo-900/20 dark:to-purple-900/20 card-hover border border-indigo-100 dark:border-indigo-800 relative overflow-hidden">
               <div className="w-16 h-16 bg-gradient-to-r from-indigo-600 to-purple-600 rounded-xl mb-6 flex items-center justify-center group-hover:scale-110 group-hover:rotate-6 transition-transform duration-300">
                 <svg className="w-8 h-8 text-white" fill="none" stroke="currentColor" viewBox="0 0 24 24">
                   <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M13 10V3L4 14h7v7l9-11h-7z" />
@@ -482,7 +482,7 @@ export default function HomePage() {
                   <svg className="w-5 h-5 text-green-500 mr-3" fill="currentColor" viewBox="0 0 20 20">
                     <path fillRule="evenodd" d="M16.707 5.293a1 1 0 010 1.414l-8 8a1 1 0 01-1.414 0l-4-4a1 1 0 011.414-1.414L8 12.586l7.293-7.293a1 1 0 011.414 0z" clipRule="evenodd"></path>
                   </svg>
-                  Khóa học tùy chỉnh
+                  Khóa học t��y chỉnh
                 </li>
                 <li className="flex items-center">
                   <svg className="w-5 h-5 text-green-500 mr-3" fill="currentColor" viewBox="0 0 20 20">
