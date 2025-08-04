@@ -1,4 +1,5 @@
 import { Button } from "@/components/ui/button"
+import { FAQ } from "@/components/faq"
 import Link from "next/link"
 
 export default function HomePage() {
